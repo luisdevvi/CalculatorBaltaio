@@ -22,7 +22,7 @@
             Console.WriteLine($"\nThe result of sum is {result}.");
         }
 
-        static void Subtratcion()
+        static void Subtraction()
         {
             Console.Clear();
 
