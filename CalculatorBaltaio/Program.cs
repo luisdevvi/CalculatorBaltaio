@@ -51,6 +51,10 @@
             float result = v1 + v2;
 
             Console.WriteLine($"\nThe result of sum is {result}.");
+
+            Console.WriteLine("\nPress any key to return to menu...");
+            Console.ReadKey();
+            Menu();
         }
 
         static void Subtraction()
@@ -66,6 +70,10 @@
             float result = v1 - v2;
 
             Console.WriteLine($"\nThe result of subtraction is {result}.");
+
+            Console.WriteLine("\nPress any key to return to menu...");
+            Console.ReadKey();
+            Menu();
         }
 
         static void Division()
@@ -81,6 +89,10 @@
             float result = v1 / v2;
 
             Console.WriteLine($"\nThe result of division is {result}.");
+
+            Console.WriteLine("\nPress any key to return to menu...");
+            Console.ReadKey();
+            Menu();
         }
 
         static void Multiplication() 
@@ -96,6 +108,10 @@
             float result = v1 * v2;
 
             Console.WriteLine($"\nThe result of multiplication is {result}.");
+
+            Console.WriteLine("\nPress any key to return to menu...");
+            Console.ReadKey();
+            Menu();
         }
     }
 }
