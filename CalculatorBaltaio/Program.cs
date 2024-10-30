@@ -17,7 +17,7 @@
             Console.WriteLine("2 - Subtraction");
             Console.WriteLine("3 - Division");
             Console.WriteLine("4 - Multiplication");
-            Console.WriteLine("5 - Exit");
+            Console.WriteLine("0 - Exit");
             Console.WriteLine("");
 
             short operation = short.Parse(Console.ReadLine());
@@ -28,7 +28,7 @@
                 case 2: Subtraction(); break;
                 case 3: Division(); break;
                 case 4: Multiplication(); break;
-                case 5: Environment.Exit(0); break;
+                case 0: Environment.Exit(0); break;
                 default:
                     {
                         Console.WriteLine("Invalid option! Press any key to return to menu...");
