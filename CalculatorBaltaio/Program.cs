@@ -4,10 +4,31 @@
     {
         static void Main(string[] args)
         {
-            //Sum();
-            //Subtraction();
-            //Division();
-            Multiplication();
+            Menu();
+        }
+
+        static void Menu()
+        {
+            Console.Clear();
+
+            Console.WriteLine("Select an operation: \n");
+
+            Console.WriteLine("1 - Sum");
+            Console.WriteLine("2 - Subtraction");
+            Console.WriteLine("3 - Division");
+            Console.WriteLine("4 - Multiplication");
+            Console.WriteLine("");
+
+            short operation = short.Parse(Console.ReadLine());
+
+            switch (operation)
+            {
+                case 1: Sum(); break;
+                case 2: Subtraction(); break;
+                case 3: Division(); break;
+                case 4: Multiplication(); break;
+                default: Menu(); break;
+            }
         }
 
         static void Sum()
