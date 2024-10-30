@@ -29,7 +29,12 @@
                 case 3: Division(); break;
                 case 4: Multiplication(); break;
                 case 5: Environment.Exit(0); break;
-                default: Menu(); break;
+                default:
+                    {
+                        Console.WriteLine("Invalid option! Press any key to return to menu...");
+                        Console.ReadKey();
+                        Menu(); break;
+                    }
             }
         }
 
