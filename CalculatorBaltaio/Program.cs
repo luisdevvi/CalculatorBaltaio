@@ -6,7 +6,8 @@
         {
             //Sum();
             //Subtraction();
-            Division();
+            //Division();
+            Multiplication();
         }
 
         static void Sum()
@@ -52,6 +53,21 @@
             float result = v1 / v2;
 
             Console.WriteLine($"\nThe result of division is {result}.");
+        }
+
+        static void Multiplication() 
+        {
+            Console.Clear();
+
+            Console.WriteLine("First value: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("\nSecond value: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            float result = v1 * v2;
+
+            Console.WriteLine($"\nThe result of multiplication is {result}.");
         }
     }
 }
